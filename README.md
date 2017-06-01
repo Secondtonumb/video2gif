@@ -1,6 +1,16 @@
-# Convert video file to gif animation
+# Convert video file to gif animation on OSX / Macos
 This script will convert video file to optimized gif with fixed 10fps framerate.
 
+## Installation
+You can use homebrew / macports / build from sources for install:
+* ffmpeg:
+    ```
+    brew install ffmpeg
+    ```
+* gifsicle
+    ```
+    brew install gifsicle
+    ```
 ## Usage
 You can run script through "sh" or set "+x" attribute with "chmod":
 ```
