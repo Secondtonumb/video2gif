@@ -25,7 +25,7 @@ shift $(($OPTIND - 1))
 
 if [ "$1" == "" ]
 then
-    echo 'Usage: [sh] video2gif [-s size=512] path-to-video'
+    echo 'Usage: [sh] video2gif [-s size] path-to-video'
     exit 1
 fi
 if ! [[ "$maxSize" =~ ^[0-9]+$ && "$maxSize" > 0 ]]
